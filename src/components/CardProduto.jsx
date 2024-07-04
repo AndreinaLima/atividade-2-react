@@ -10,7 +10,7 @@ function CardProduto(props) {
   return (
     <section className="card">
       <article>
-        <img src={props.linkImagem} alt="Imagem de um controle x-box" />
+        <img src={props.linkImagem} alt="Imagem" />
         <h4>{props.nome}</h4>
         {props.comDesconto && (
           <p className="comDesconto">De: R${props.precoUnitario}</p>
